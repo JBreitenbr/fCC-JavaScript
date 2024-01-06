@@ -18,6 +18,6 @@ function handleClick() {
     alert("Please input a value");
   }
   else {
-    result.innerText=palindromeCheck(val);
+    resultText.innerText=palindromeCheck(val);
   }
 }
